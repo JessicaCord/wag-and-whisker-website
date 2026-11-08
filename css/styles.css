@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fredoka:wght@300..700&family=Isometra&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	background-color: #eef6f5;
+	color: #14313a;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+}
+
+H1,
+H2,
+H3 {
+	font-family: "Fredoka", sans-serif;
+}
+
+nav {
+	background-color: #1f8a8a;
+	color: #eef6f5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1px 25px;
+}
+
+nav ul {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	font-size: 14px;
+}
+
+img {
+	height: 10rem;
+	width: 20rem;
+	border-radius: 10px;
+}
+
+.price {
+	color: #1f8a8a;
+}
+
+.Services {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-bottom: 50px;
+}
+
+.card {
+	background-color: #ffffff;
+	border: 1px solid #ffc94d;
+	border-radius: 10px;
+	width: 149px;
+	height: 150px;
+	padding: 1px 10px 1px 15px;
+	text-align: left;
+}
+
+.tags-wrapper {
+	display: flex;
+	margin-top: 0;
+	margin-bottom: 2rem;
+	justify-content: center;
+}
+
+.tag {
+	background-color: #ffc94d;
+	border-radius: 25px;
+	padding: 10px 20px;
+	margin: 5px;
+	text-align: center;
+	margin-top: -4px;
+}
+
+footer {
+	background-color: #14313a;
+	color: #eef6f5;
+	padding-top: 1rem;
+	text-align: left;
+	font-size: 13px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px;
+}
